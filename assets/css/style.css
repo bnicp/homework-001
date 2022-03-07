@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+/* Shifted font family to body becanse it was repeated for every class except the header and footer */
+
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -85,6 +87,8 @@ p {
     background-color: #2589bd;
 }
 
+/* The following sections have combined ids and classes to remove repitition. */
+
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -117,6 +121,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* End of combined ids and classes to remove repetition. */
 
 footer {
     padding: 30px;
