@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-/* Shifted font family to body becanse it was repeated for every class except the header and footer */
+/* Shifted font family to body because it was repeated for every class, except the header and footer */
 
 body {
     background-color: #d9dcd6;
@@ -87,7 +87,7 @@ p {
     background-color: #2589bd;
 }
 
-/* The following sections have combined ids and classes to remove repitition. */
+/* The following sections have combined ids to remove repitition. */
 
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
@@ -105,7 +105,9 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+/* Removed classes from sections that had ids (needed for navigation). Classes were redundant. */
+
+#search-engine-optimization, #online-reputation-management, #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -113,16 +115,16 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+#search-engine-optimization img, #online-reputation-management img, #social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+#search-engine-optimization h2, #online-reputation-management h2, #social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* End of combined ids and classes to remove repetition. */
+/* End of combined ids to remove repetition. */
 
 footer {
     padding: 30px;
